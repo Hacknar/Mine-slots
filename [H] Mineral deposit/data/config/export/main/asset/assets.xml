@@ -1,0 +1,368 @@
+<ModOps>
+	<ModOp Type="replace" GUID='102498,101062,100849' Path="/Values/Object/Variations">
+		<Variations>
+			<Item>
+				<Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_39.cfg</Filename>
+			</Item>
+		</Variations>
+	</ModOp>
+	<ModOp Type="replace" GUID='101061,100417' Path="/Values/Object/Variations">
+		<Variations>
+			<Item>
+				<Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_39.cfg</Filename>
+			</Item>
+		</Variations>
+	</ModOp>
+	<ModOp Type="replace" GUID='101061,100417' Path="/Values/Blocking">
+		<Blocking>
+			<HidePropsRadius>3</HidePropsRadius>
+			<DeletePropsRadius>3</DeletePropsRadius>
+			<RemovePropsRadius>3</RemovePropsRadius>
+			<RemoveGrass>1</RemoveGrass>
+		  </Blocking>
+	</ModOp>
+</ModOps>
+
+  
+
+
+
+
+
+
+
+<ModOp Type="replace" GUID="1010304,1010305" Path="/Values/FactoryBase/CycleTime">
+	<CycleTime>30</CycleTime>
+</ModOp>
+
+<ModOp Type="add" GUID="1010307,1010308,1010309" Path="/Values/FactoryBase/">
+		<CycleTime>60</CycleTime>
+</ModOp>
+  
+	<ModOp Type="replace" GUID="1010311" Path="/Values/FactoryBase/CycleTime">
+			<CycleTime>240</CycleTime>
+	</ModOp>
+
+		  <!-- workforce increase -->
+	  <ModOp Type="replace" GUID="1010307,1010308,1010309" Path="/Values/Maintenance/Maintenances/">
+		<Maintenances>
+		  <Item>
+			<Product>1010017</Product>
+			<Amount>250</Amount>
+			<InactiveAmount>125</InactiveAmount>
+		  </Item>
+		  <Item>
+			<Product>1010115</Product>
+			<Amount>50</Amount>
+		  </Item>
+		</Maintenances>
+	  </ModOp>
+
+<!-- Mineral deposits -->
+<ModOp Type="add" GUID='1000029' Path="/Values/RandomMapObject">
+<UseMapGeneratorSlotCountOverride>1</UseMapGeneratorSlotCountOverride>
+	<MapGeneratorSlotCountOverride>
+		<Low>
+			<Region>
+				<Moderate>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Moderate>
+				<Colony01>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Colony01>
+			</Region>
+		</Low>
+		<Medium>
+			<Region>
+				<Moderate>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Moderate>
+				<Colony01>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Colony01>
+			</Region>
+		</Medium>
+		<High>
+			<Region>
+				<Moderate>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Moderate>
+				<Colony01>
+					<IslandSize>
+						<Small>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Small>
+						<Medium>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Medium>
+						<Large>
+							<Min>20</Min>
+							<Max>20</Max>
+						</Large>
+					</IslandSize>
+				</Colony01>
+			</Region>
+		</High>
+</MapGeneratorSlotCountOverride>
+</ModOp> 
+
+<!-- Arctic Deep Gold Mine -->
+<ModOp Type="replace" GUID='116037' Path="/Values/RandomMapObject">
+<RandomMapObject>
+	<Randomizable>1</Randomizable>
+			<Replacements>
+				<Item>
+					<NewAsset>116038</NewAsset>
+				</Item>
+			</Replacements>
+			<MapGeneratorSlotCountOverride>
+				<Low>
+				  <Region>
+					  <Arctic>
+						  <IslandSize>
+							  <Small>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Small>
+							  <Medium>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Medium>
+							  <Large>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Large>
+						  </IslandSize>
+					  </Arctic>
+				  </Region>
+				</Low>
+				<Medium>
+				  <Region>
+					  <Arctic>
+						  <IslandSize>
+							  <Small>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Small>
+							  <Medium>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Medium>
+							  <Large>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Large>
+						  </IslandSize>
+					  </Arctic>
+				  </Region>
+				</Medium>
+				<High>
+				  <Region>
+					  <Arctic>
+						  <IslandSize>
+							  <Small>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Small>
+							  <Medium>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Medium>
+							  <Large>
+								  <Min>8</Min>
+								  <Max>8</Max>
+							  </Large>
+						  </IslandSize>
+					  </Arctic>
+				  </Region>
+				</High>
+			</MapGeneratorSlotCountOverride>
+			<UseMapGeneratorSlotCountOverride>1</UseMapGeneratorSlotCountOverride>
+</RandomMapObject>        
+</ModOp> 
+
+				<!-- Clay -->
+
+				<ModOp Type="replace" GUID='100417' Path="/Values/RandomMapObject/MapGeneratorSlotCountOverride">
+					<MapGeneratorSlotCountOverride>
+							<Low>
+								<Region>
+									<Moderate>
+										<IslandSize>
+											<Small>
+												<Min>1</Min>
+												<Max>2</Max>
+											</Small>
+											<Medium>
+												<Min>2</Min>
+												<Max>3</Max>
+											</Medium>
+											<Large>
+												<Min>3</Min>
+												<Max>4</Max>
+											</Large>
+										</IslandSize>
+									</Moderate>
+									<Colony01>
+										<IslandSize>
+											<Small>
+												<Min>1</Min>
+												<Max>3</Max>
+											</Small>
+											<Medium>
+												<Min>2</Min>
+												<Max>4</Max>
+											</Medium>
+											<Large>
+												<Min>3</Min>
+												<Max>5</Max>
+											</Large>
+										</IslandSize>
+									</Colony01>
+								</Region>
+							</Low>
+							<Medium>
+								<Region>
+									<Moderate>
+										<IslandSize>
+											<Small>
+												<Min>2</Min>
+												<Max>3</Max>
+											</Small>
+											<Medium>
+												<Min>3</Min>
+												<Max>4</Max>
+											</Medium>
+											<Large>
+												<Min>4</Min>
+												<Max>5</Max>
+											</Large>
+										</IslandSize>
+									</Moderate>
+									<Colony01>
+										<IslandSize>
+											<Small>
+												<Min>2</Min>
+												<Max>3</Max>
+											</Small>
+											<Medium>
+												<Min>3</Min>
+												<Max>4</Max>
+											</Medium>
+											<Large>
+												<Min>4</Min>
+												<Max>5</Max>
+											</Large>
+										</IslandSize>
+									</Colony01>
+								</Region>
+							</Medium>
+							<High>
+								<Region>
+									<Moderate>
+										<IslandSize>
+											<Small>
+												<Min>3</Min>
+												<Max>3</Max>
+											</Small>
+											<Medium>
+												<Min>4</Min>
+												<Max>4</Max>
+											</Medium>
+											<Large>
+												<Min>5</Min>
+												<Max>5</Max>
+											</Large>
+										</IslandSize>
+									</Moderate>
+									<Colony01>
+										<IslandSize>
+											<Small>
+												<Min>3</Min>
+												<Max>3</Max>
+											</Small>
+											<Medium>
+												<Min>4</Min>
+												<Max>4</Max>
+											</Medium>
+											<Large>
+												<Min>5</Min>
+												<Max>5</Max>
+											</Large>
+										</IslandSize>
+									</Colony01>
+								</Region>
+							</High>
+					</MapGeneratorSlotCountOverride>
+				</ModOp> 
+
+					<ModOp Type="add" GUID='100417' Path="/Values/RandomMapObject">
+						<UseMapGeneratorSlotCountOverride>1</UseMapGeneratorSlotCountOverride>
+					</ModOp>
